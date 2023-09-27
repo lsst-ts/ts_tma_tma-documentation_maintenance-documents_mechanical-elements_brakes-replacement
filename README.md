@@ -38,12 +38,13 @@
       - [Asentamiento](#asentamiento-1)
       - [Detalles del test:](#detalles-del-test-1)
   - [Liberar frenos de manera individual](#liberar-frenos-de-manera-individual)
+  - [Manejar limites de sobrevelocidad en el TMA-IS](#manejar-limites-de-sobrevelocidad-en-el-tma-is)
 
 ## Introducción
 
 El siguiente documento describe el procedimiento que hay que realizar para sustituir las zapatas de los frenos de
 azimuth / Eleevación. El documento se divide en 2 partes, la primera parte describe como sustituir el freno
-mecánicamente y la segunda parte describe como hay que manipular el sistema de seguridad para permitir su sustitución.
+mecánicamente y la segunda parte describe como hay que utilizar el sistema de seguridad para permitir su sustitución.
 
 ## Lista de documentos de referencia
 
@@ -83,7 +84,7 @@ mecánicamente y la segunda parte describe como hay que manipular el sistema de 
 
 ### Preparativos
 
-Antes de iniciar el proceso de sustitución de la pastilla, asegurar que el freno y disco estén limpios y seco. Si las
+Antes de iniciar el proceso de sustitución de la pastilla, asegurar que el freno y disco estén limpios y secos. Si las
 pastillas se contaminan con aceite, disminuirá la capacidad nominal de frenado.
 
 Antes de remplazar la pastilla, si el disco está sucio de grasa o aceite, limpiar la superficie con un disolvente que no
@@ -169,14 +170,13 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 Para conseguir un correcto asentamiento, hay que realizar al menos 20 paradas de emergencia y en cada una de ellas
 comprobar que la capacidad de frenado va aumentando, observando la distancia recorrida por el TMA durante el frenado de
-emergencia.
+emergencia va disminuyendo.
 
-Para realizar la parada de emergencia hay que by-pasear las señales de parada del aceite en caso de emergencia. El
-último test se realizar con el sistema de aceite sin bypasear para comprobar el frenado real de los frenos de azimuth.
-La acción de frenado se realizar con todos los frenos activados al mismo tiempo.
+Para realizar la parada de emergencia se va a utilizar el error de sobrevelocidad del TMA-IS. Ver apartado [Manejar Limites de Sobrevelodad en el TMA IS](#manejar-limites-de-sobrevelocidad-en-el-tma-is)
 
-Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en el disco
-superficie, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
+La acción de frenado se realiza con todos los frenos activados al mismo tiempo.
+
+Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en la superficie del disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
 #### Mecanizado de los pastillas
 
@@ -189,11 +189,11 @@ Con este mecanizado debemos evitar realizar señales en la pastilla y dejar la p
 
 1. **Ciclos** +90º a -90º / 8 frenos (pares enfrentados)
 
-2. **Velocidad:** 2 grados por segundo, aumentar la velocidad hasta 3,5 grados por segundo, máximo.
+2. **Velocidad:** 3.6 grados por segundo.
 
 3. **Distancia de frenada**: En esta situación comprobar la distancia requerida para frenar el TMA
 
-**Nota: Bypasear el disparo del OSS.**
+
 
 ## Sustitución de las pastillas de Elevación
 
@@ -335,70 +335,65 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 Para conseguir un correcto asentamiento, hay que realizar al menos 20 paradas de emergencia y en cada una de ellas
 comprobar que la capacidad de frenado va aumentando, observando la distancia recorrida por el TMA durante el frenado de
-emergencia.
+emergencia va disminuyendo.
 
-Para realizar la parada de emergencia hay que by-pasear las señales de parada del aceite en caso de emergencia. El
-último test se realizar con el sistema de aceite sin bypasear para comprobar el frenado real de los frenos de elevación.
-La acción de frenado se realizar con todos los frenos activados al mismo tiempo.
+Para realizar la parada de emergencia se va a utilizar el error de sobrevelocidad del TMA-IS. Ver apartado [Manejar Limites de Sobrevelodad en el TMA IS](#manejar-limites-de-sobrevelocidad-en-el-tma-is)
 
-Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en el disco
-superficie, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
+La acción de frenado se realiza con todos los frenos activados al mismo tiempo.
+
+Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en la superficie del disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
 #### Detalles del test:
 
 1. **Ciclos** +20º a -20º / con los frenos de elevación activos
 
-2. **Velocidad:** 3,5 grados por segundo
+2. **Velocidad:** 2.88 grados por segundo
 
 3. **Distancia de frenada**: En esta situación comprobar la distancia requerida para frenar el TMA
-
-**Nota: Bypasear el disparo del OSS.**
 
 ## Liberar frenos de manera individual
 
 1. Abrir el programa PAS4000
 
-> ![A screenshot of a computer Description automatically
-> generated](./media/media/image5.png)
+> ![Abrir el programa PAS4000](./media/media/image5.png)
 
 2. Abrir el proyecto TMA_IS con botón derecho y Activate Project
 
-> ![Graphical user interface, application, table Description automatically
-> generated](./media/media/image6.png)
+> ![Abrir proyecto TMA_IS](./media/media/image6.png)
 
-3. Meter la credenciales del safety
+3. Rellenar la credenciales del safety
 
-> ![Graphical user interface, text, application, email Description automatically
-> generated](./media/media/image7.png)
+> ![Rellenar las credenciales](./media/media/image7.png)
 
 4. Abrir el item "Variable lists"
 
-> ![Graphical user interface, application, table Description automatically
-> generated](./media/media/image8.png)
+> ![Abrir las lista de variables](./media/media/image8.png)
 
 5. Desplegamos las variables pulsando sobre ellas (rojo) y comenzamos a visualizarlas dando al play (azul)
+   1. Para azimuth abrir la lista de variables AZ_BrakesInividually
+   2. Para elevación abrir la lista de variables EL_BrakesInividually
 
-> ![Graphical user interface, application, table Description automatically
-> generated](./media/media/image9.png)
+> ![Deplegar las variables](./media/media/image9.png)
 
-6. Buscar las variables sdoBKAZ1, sdoBkAZ2, ...
+6. Buscar las variables 
+   1. Para azimuth sdoBKAZ1, sdoBkAZ2, sdoBKAZ3, sdoBKAZ4, sdoBKAZ5, sdoBKAZ6, sdoBKAZ7 y sdoBKAZ8 en lista de variables AZ_BrakesInividually
+   2. Para elevación sdoBKEL1, sdoBkEL2 en lista de variables EL_BrakesInividually
 
-> ![Graphical user interface, table Description automatically
-> generated](./media/media/image10.png)
+> ![Variables de Az](./media/media/image10.png)
+> ![Variables de El](./media/media/image10.png)
 
-7. Doble click en la comuna "force/control value" y en el dialogo elegir el valor (rojo) y Force Now (Azul). TRUE =
-    abrir freno, FALSE = cerrar freno
+7. Doble click en la comuna "force/control value" y en el dialogo elegir el valor (rojo) y Force Now (Azul). TRUE =abrir freno, FALSE = cerrar freno
 
-![Graphical user interface, application, table Description automatically
-generated](./media/media/image11.png)
+![Forzar](./media/media/image11.png)
 
 8. Una vez forzado aparece una F junto al símbolo
 
-> ![Graphical user interface, table Description automatically
-> generated](./media/media/image12.png)
+> ![Marca de forzado en la variable](./media/media/image12.png)
 
 9. **Para detener el forzado, botón derecho sobre la variable deseada y "Stop Forcing Variables"**
 
-> ![Graphical user interface, application, table Description automatically
-> generated](./media/media/image13.png)
+> ![Stop forcing](./media/media/image13.png)
+
+## Manejar limites de sobrevelocidad en el TMA-IS
+
 
