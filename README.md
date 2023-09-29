@@ -193,8 +193,6 @@ Con este mecanizado debemos evitar realizar señales en la pastilla y dejar la p
 
 3. **Distancia de frenada**: En esta situación comprobar la distancia requerida para frenar el TMA
 
-
-
 ## Sustitución de las pastillas de Elevación
 
 ### Componentes del freno de elevación
@@ -395,5 +393,4 @@ Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes 
 > ![Stop forcing](./media/media/image13.png)
 
 ## Manejar limites de sobrevelocidad en el TMA-IS
-
 
