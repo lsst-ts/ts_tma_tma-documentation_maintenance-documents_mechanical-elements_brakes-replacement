@@ -16,20 +16,17 @@
     - [Componentes del freno de azimuth](#componentes-del-freno-de-azimuth)
     - [Preparativos](#preparativos)
     - [Reemplazo de pastillas de freno](#reemplazo-de-pastillas-de-freno)
-      - [Mecanizado de los pastillas](#mecanizado-de-los-pastillas)
     - [Ajuste de la fuerza de frenado](#ajuste-de-la-fuerza-de-frenado)
     - [Procedimiento de asentamiento de los frenos](#procedimiento-de-asentamiento-de-los-frenos)
       - [General](#general)
       - [Preparativos](#preparativos-1)
       - [Tiempo de procesamiento](#tiempo-de-procesamiento)
       - [Asentamiento](#asentamiento)
-      - [Mecanizado de los pastillas](#mecanizado-de-los-pastillas-1)
       - [Detalles del test:](#detalles-del-test)
   - [Sustitución de las pastillas de Elevación](#sustitución-de-las-pastillas-de-elevación)
     - [Componentes del freno de elevación](#componentes-del-freno-de-elevación)
     - [Preparativos](#preparativos-2)
     - [Reemplazo de pastillas de freno](#reemplazo-de-pastillas-de-freno-1)
-      - [Mecanizado de los pastillas](#mecanizado-de-los-pastillas-2)
     - [Ajuste de la fuerza de frenado](#ajuste-de-la-fuerza-de-frenado-1)
     - [Procedimiento de asentamiento de los frenos](#procedimiento-de-asentamiento-de-los-frenos-1)
       - [General](#general-1)
@@ -95,28 +92,19 @@ un paño limpio y solvente.
 
 1. Gire la tuerca de ajuste (4) hacia afuera, hasta que sobresalga 29 mm de la carcasa del freno (1)
 
-2. Presurice el freno / abrir el freno, [ver paso XXX(descrito por Tekniker).]{.mark}
+2. Presurice el freno / abrir el freno, ver [como liberar frenos](#liberar-frenos-de-manera-individual)
 
 3. Retire los pasadores guía (8) y los tornillos del muelle de retorno (15).
 
 4. Deslice la pastilla de freno (2) hacia arriba y hacia afuera.
 
-5. Previamente a instalar la pastilla nueva, mecanizar según apartado 3.2.1
+5. Deslice la pastilla de freno (2) nueva hacia adentro.
 
-6. Deslice la pastilla de freno (2) nueva hacia adentro.
+6. Instale los pasadores guía (8) y los tornillos del resorte de retorno (15). Apriete los tornillos según el dibujo.
 
-7. Instale los pasadores guía (8) y los tornillos del resorte de retorno (15). Apriete los tornillos según el dibujo.
-
-8. Ajuste la fuerza de frenado según el capítulo 3.3.
+7. Ajuste la fuerza de frenado según el capítulo [Ajuste de la fuerza de frenado](#ajuste-de-la-fuerza-de-frenado)
 
 Se recomienda instalar pastillas de freno nuevas según apartado 3.4, para maximizar la fuerza.
-
-#### Mecanizado de los pastillas
-
-Para conseguir un correcta superficie de frenado deberemos mecanizar previamente las pastillas de freno en el taller con
-el objetivo de eliminar material y uniformizar la superficie de la pastilla para conseguir un buen frenado.
-
-Con este mecanizado debemos evitar realizar señales en la pastilla y dejar la pastilla lo más uniforme posible.
 
 ### Ajuste de la fuerza de frenado
 
@@ -168,30 +156,21 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 #### Asentamiento  
 
-Para conseguir un correcto asentamiento, hay que realizar al menos 20 paradas de emergencia y en cada una de ellas
-comprobar que la capacidad de frenado va aumentando, observando la distancia recorrida por el TMA durante el frenado de
-emergencia va disminuyendo.
+Para conseguir un correcto asentamiento, hay que accionar cada par de frenos individualmente, siguiendo las instrucciones del punto 2. Accionado un par de frenos y el resto de frenos abiertos, el par de frenos debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 20 veces un movimiento de 180 grados.
 
-Para realizar la parada de emergencia se va a utilizar el error de sobrevelocidad del TMA-IS. Ver apartado [Manejar Limites de Sobrevelodad en el TMA IS](#manejar-limites-de-sobrevelocidad-en-el-tma-is)
+En cada movimiento, realizar una pausa y dejar que el disco se enfríe.
 
-La acción de frenado se realiza con todos los frenos activados al mismo tiempo.
-
-Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en la superficie del disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
-
-#### Mecanizado de los pastillas
-
-Para conseguir un correcta superficie de frenado deberemos mecanizar previamente las pastillas de freno en el taller con
-el objetivo de eliminar material y uniformizar la superficie de la pastilla para conseguir un buen frenado.
-
-Con este mecanizado debemos evitar realizar señales en la pastilla y dejar la pastilla lo más uniforme posible.
+Cada 10 movimientos revisar que la superficie del disco no comienza a vidriarse. Si la superficie muestra depósitos brillantes de material de fricción en el disco superficie, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
 #### Detalles del test:
 
-1. **Ciclos** +90º a -90º / 8 frenos (pares enfrentados)
+1. **Ciclos** +90º a -90º / 2 frenos (pares enfrentados) durante rea.
 
-2. **Velocidad:** 3.6 grados por segundo.
+2. **Velocidad:** 3 grados por segundo, hasta recorrer 500 metros con cada par de frenos, equivalente a repetir 20 veces el movimiento de 180.
 
-3. **Distancia de frenada**: En esta situación comprobar la distancia requerida para frenar el TMA
+3. **Distancia de frenada**: Una vez realizado el test con todos los frenos, realizar un frenado de emergencia y comprobar si la distancia de frenado está dentro de los requisitos definidos de 12º, para la velocidad máxima. En caso de no cumplirse este requisito volver a repetir el procedimiento para una tanda de 5 ciclos.
+
+4. **Finalización del Test**: La distancia de frenado está dentro de los parámetros exigidos o no ha se conseguido recortar la distancia entre dos frenadas de emergencia separadas por 5 ciclos.
 
 ## Sustitución de las pastillas de Elevación
 
@@ -253,31 +232,22 @@ un paño limpio y solvente.
 
 2. Gire la tuerca de ajuste (5) hacia afuera, hasta que sobresalga 29 mm de la carcasa del freno (1)
 
-3. Presurice el freno / abrir el freno, [ver paso XXX(descrito por Tekniker).]{.mark}
+3. Presurice el freno / abrir el freno, ver [como liberar frenos](#liberar-frenos-de-manera-individual)
 
 4. Retire los pasadores guía (9) y los tornillos del muelle de retorno (8) en la carcasa del freno (1) y retire las
   placas de bloqueo (12) (13) y los pasadores guía (6) para el soporte SKP 95-SA.
 
 5. Deslice la pastilla de freno (3) hacia arriba y hacia afuera.
 
-6. Previamente a instalar la pastilla nueva, mecanizar según apartado 4.2.1.
+6. Deslice la pastilla de freno (3) nueva hacia adentro.
 
-7. Deslice la pastilla de freno (3) nueva hacia adentro.
-
-8. Instale los pasadores guía (9) y los tornillos del resorte de retorno (8) en la carcasa del freno (1) e instale las
+7. Instale los pasadores guía (9) y los tornillos del resorte de retorno (8) en la carcasa del freno (1) e instale las
     placas de bloqueo (12) (13) y los pasadores guía (6) para el soporte SKP 95-SA. Apriete los tornillos según el
     dibujo.
 
-9. Ajuste la fuerza de frenado según el [capítulo 4.3.]{.mark}
+8. Ajuste la fuerza de frenado según el [ajuste de la fuerza de frenado](#ajuste-de-la-fuerza-de-frenado-1)
 
 Se recomienda instalar pastillas de freno nuevas [según según apartado 4.4,]{.mark} para maxiimizar la fuerza.
-
-#### Mecanizado de los pastillas
-
-Para conseguir un correcta superficie de frenado deberemos mecanizar previamente las pastillas de freno en el taller con
-el objetivo de eliminar material y uniformizar la superficie de la pastilla para conseguir un buen frenado.
-
-Con este mecanizado debemos evitar realizar señales en la pastilla y dejar la pastilla lo más uniforme posible.
 
 ### Ajuste de la fuerza de frenado
 
@@ -331,23 +301,20 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 #### Asentamiento
 
-Para conseguir un correcto asentamiento, hay que realizar al menos 20 paradas de emergencia y en cada una de ellas
-comprobar que la capacidad de frenado va aumentando, observando la distancia recorrida por el TMA durante el frenado de
-emergencia va disminuyendo.
+Para conseguir un correcto asentamiento, hay que accionar cada freno de elevación individualmente, siguiendo las instrucciones del punto 2. Accionado un freno y el otro abierto, el freno debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 90 veces un movimiento de 45 grados.
 
-Para realizar la parada de emergencia se va a utilizar el error de sobrevelocidad del TMA-IS. Ver apartado [Manejar Limites de Sobrevelodad en el TMA IS](#manejar-limites-de-sobrevelocidad-en-el-tma-is)
+Cada 20 movimiento revisar que la superficie del disco no comienza a vidriarse. Si la superficie muestra depósitos brillantes de material de fricción en el disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
-La acción de frenado se realiza con todos los frenos activados al mismo tiempo.
-
-Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes de material de fricción en la superficie del disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
 #### Detalles del test:
 
-1. **Ciclos** +20º a -20º / con los frenos de elevación activos
+1. **Ciclos** De 25º a 70º  / con un freno de elevación activos. Repetir para ambos frenos
 
-2. **Velocidad:** 2.88 grados por segundo
+2. **Velocidad:** 3,5 grados por segundo, hasta recorrer 500 metros con cada par de frenos, equivalente a repetir 90 veces el movimiento de 45º
 
-3. **Distancia de frenada**: En esta situación comprobar la distancia requerida para frenar el TMA
+3. **Distancia de frenada**: Una vez realizado el test con todos los frenos, realizar un frenado de emergencia y comprobar si la distancia de frenado está dentro de los requisitos definidos de 7º, para la velocidad máxima. En caso de no cumplirse este requisito volver a repetir el procedimiento para una tanda de 5 ciclos.
+
+4. **Finalización del Test**: La distancia de frenado está dentro de los parámetros exigidos o no ha se conseguido recortar la distancia entre dos frenadas de emergencia separadas por 5 ciclos.
 
 ## Liberar frenos de manera individual
 
@@ -373,7 +340,7 @@ Si la superficie del disco comienza a vidriarse mostrando depósitos brillantes 
 
 > ![Deplegar las variables](./media/media/image9.png)
 
-6. Buscar las variables 
+6. Buscar las variables
    1. Para azimuth sdoBKAZ1, sdoBkAZ2, sdoBKAZ3, sdoBKAZ4, sdoBKAZ5, sdoBKAZ6, sdoBKAZ7 y sdoBKAZ8 en lista de variables AZ_BrakesInividually
    2. Para elevación sdoBKEL1, sdoBkEL2 en lista de variables EL_BrakesInividually
 
