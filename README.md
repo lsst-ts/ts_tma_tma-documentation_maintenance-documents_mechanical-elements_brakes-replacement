@@ -340,7 +340,7 @@ Estas variables no liberarán algunos de los frenos, según el valor de las mism
 
 Las variables utilizadas son iBrakeReplacementAz, iBrakeReplacementEl que permiten escoger el/los frenos que no se van a liberar (ver tabla más abajo) y bBrakeReplacementProcedure, que habilita la función con un valor de TRUE. No permite realizar esta operación en los ejes de azimuth y elevación al mismo tiempo, teniendo prioridad el eje de azimuth, es decir si la variable iBrakeReplacementAz tiene un valor superior a 0 la variable iBrakeReplacementEl será sobreescrita a 0.
 
-![1700548157102](image/README/1700548157102.png)
+![Variables de asentamiento de frenos](media/media/image15.png)
 
 | Variable            | Valor | Freno/s no liberado/s |
 | ------------------- | ----- | --------------------- |
