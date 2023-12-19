@@ -149,7 +149,7 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 #### Asentamiento
 
-Para conseguir un correcto asentamiento, hay que accionar cada par de frenos individualmente, siguiendo las instrucciones del punto 2. Accionado un par de frenos y el resto de frenos abiertos, el par de frenos debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 20 veces un movimiento de 180 grados.
+Para conseguir un correcto asentamiento, hay que accionar cada par de frenos individualmente, siguiendo las instrucciones del punto [Liberar frenos para asentamiento](#liberar-frenos-para-asentamiento). Accionado un par de frenos y el resto de frenos abiertos, el par de frenos debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 20 veces un movimiento de 180 grados.
 
 En cada movimiento, realizar una pausa y dejar que el disco se enfríe.
 
@@ -281,7 +281,7 @@ de frenado. Esto se puede determinar mejor en el lugar de trabajo basándose en 
 
 #### Asentamiento
 
-Para conseguir un correcto asentamiento, hay que accionar cada freno de elevación individualmente, siguiendo las instrucciones del punto 2. Accionado un freno y el otro abierto, el freno debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 90 veces un movimiento de 45 grados.
+Para conseguir un correcto asentamiento, hay que accionar cada freno de elevación individualmente, siguiendo las instrucciones del [Liberar frenos para asentamiento](#liberar-frenos-para-asentamiento). Accionado un freno y el otro abierto, el freno debe deslizar contra el disco hasta recorrer una distancia de 500 metros, recorrer 90 veces un movimiento de 45 grados.
 
 Cada 20 movimiento revisar que la superficie del disco no comienza a vidriarse. Si la superficie muestra depósitos brillantes de material de fricción en el disco, retire cualquier vidriado de la superficie del disco con un papel abrasivo fino.
 
